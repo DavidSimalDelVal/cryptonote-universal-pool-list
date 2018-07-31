@@ -1,0 +1,40 @@
+{
+  "currency": {
+    "name": "Geldum",
+    "short_name": "Geldum",
+    "tech_name": "geldum",
+    "symbol": "GDM",
+    "difficultyTarget": 60,
+    "units": 100000000000
+  },
+  "links": {
+    "geldum.org": {
+      "icon": "fa fa-home",
+      "url": "http://geldum.org/"
+    },
+    "github.com": {
+      "icon": "fa fa-github",
+      "url": "https://github.com/GeldumProject/geldum"
+    }
+  },
+  "exchanges": {
+    "stocks.exchange": {
+      "logo": "images/logo.stocks.exchange.png",
+      "url": "https://stocks.exchange/trade/GDM/BTC"
+    }
+  },
+  "administrator": {
+    "email": "contact@geldum.org",
+    "request_user": "spnote",
+    "request_repo": "cryptonote-universal-pool-list"
+  },
+  "analytic": {
+    "ga": "UA-20179310-9"
+  },
+  "ads": {
+    "a-ads.com": "815490"
+  },
+  "worker": {
+    "interval_ms": 300000
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "pool.bitcoinnova.org",
+  "front": "http://pool.bitcoinnova.org/",
+  "back": "http://pool.bitcoinnova.org:8133",
+  "location": "ES"
+}

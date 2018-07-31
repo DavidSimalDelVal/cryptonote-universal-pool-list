@@ -1,0 +1,58 @@
+{
+  "currency": {
+    "name": "Bitcoin Nova",
+    "short_name": "bitcoinnova",
+    "tech_name": "bitcoinnova",
+    "symbol": "BTN",
+    "difficultyTarget": 120,
+    "units": 100000000
+  },
+  "links": {
+    "bitcoinnova.org": {
+      "icon": "fa fa-home",
+      "url": "https://bitcoinnova.org"
+    },
+    "coinmarketcap.com": {
+      "icon": "fa fa-money",
+      "url": "https://coinmarketcap.com/currencies/"
+    },
+    "github.com": {
+      "icon": "fa fa-github",
+      "url": "https://github.com/Bitcoin-N/bitcoinnova"
+    }
+  },
+  "exchanges": {
+    "stocks.exchange": {
+      "logo": "images/logo.stocks.exchange.png",
+      "url": "https://stocks.exchange/trade/BTN/BTC"
+    }
+  },
+  "coinmarket": {
+    "currency": "bitcoinnova",
+    "base": "USD",
+    "secondary": "BTC",
+    "ticker": "true",
+    "rank": "true",
+    "marketcap": "true",
+    "volume": "true",
+    "stats": "USD",
+    "statsticker": "false"
+  },
+  "donations": {
+    "BTN": "EAxiE1KK6ZWS5d9B2Tge7HGfxhmDBeC9W11qEKu7rmvTAe9k6Wg5ruh7D6gwMJX3nYGN7M7tX5ecGDGrab4Zr9NtFGnPx49"
+  },
+  "administrator": {
+    "email": "contact@bitcoinnova.org",
+    "request_user": "spnote",
+    "request_repo": "cryptonote-universal-pool-list"
+  },
+  "analytic": {
+    "ga": "UA-20179310-9"
+  },
+  "ads": {
+    "a-ads.com": "782705"
+  },
+  "worker": {
+    "interval_ms": 120000
+  }
+}
