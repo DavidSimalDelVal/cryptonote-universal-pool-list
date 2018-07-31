@@ -1,0 +1,52 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    working_directory: ~/repo
+    steps:
+      - setup_remote_docker
+      - run: sudo apt install libboost-dev
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
+      - run: scripts/build.sh
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+  deploy:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: scripts/deploy.sh fonero 6d839065d4608de7a6eb $FONERO_GITHUB_CLIENT_SECRET
+      - run: scripts/deploy.sh intensecoin af00bb97f7bfa8717658 $INTENSECOIN_GITHUB_CLIENT_SECRET
+
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              ignore: production
+      - deploy:
+          filters:
+            branches:
+              only: production
+  nightly_deploy:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - production
+    jobs:
+      - deploy
