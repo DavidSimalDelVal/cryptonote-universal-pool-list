@@ -2,7 +2,7 @@
   "currency": {
     "name": "Bitcoin Nova",
     "short_name": "bitcoinnova",
-    "tech_name": "bitcoinnova",
+    "tech_name": "Bitcoin Nova",
     "symbol": "BTN",
     "difficultyTarget": 120,
     "units": 100000000
@@ -25,6 +25,10 @@
     "stocks.exchange": {
       "logo": "images/logo.stocks.exchange.png",
       "url": "https://stocks.exchange/trade/BTN/BTC"
+    }
+    "altex.exchange": {
+      "logo": "images/logo.stocks.exchange.png",
+      "url": "https://altex.exchange/markets&pair=BTC_BTN"
     }
   },
   "coinmarket": {
