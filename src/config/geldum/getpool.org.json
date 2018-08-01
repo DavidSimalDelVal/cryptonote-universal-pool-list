@@ -1,0 +1,6 @@
+{
+  "name": "getpool.org",
+  "front": "https://getpool.org/gdm/",
+  "back": "https://api.getpool.org/rpc/gdm/",
+  "location": "ES"
+}
