@@ -1,8 +1,8 @@
 {
   "currency": {
     "name": "Bitcoin Nova",
-    "short_name": "bitcoinnova",
-    "tech_name": "Bitcoin Nova",
+    "short_name": "Bitcoin Nova",
+    "tech_name": "bitcoinnova",
     "symbol": "BTN",
     "difficultyTarget": 120,
     "units": 100000000
