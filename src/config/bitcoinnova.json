@@ -25,7 +25,7 @@
     "stocks.exchange": {
       "logo": "images/logo.stocks.exchange.png",
       "url": "https://stocks.exchange/trade/BTN/BTC"
-    }
+    },
     "altex.exchange": {
       "logo": "images/logo.stocks.exchange.png",
       "url": "https://altex.exchange/markets&pair=BTC_BTN"
