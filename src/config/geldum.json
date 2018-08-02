@@ -18,9 +18,9 @@
     }
   },
   "exchanges": {
-    "stocks.exchange": {
-      "logo": "images/logo.stocks.exchange.png",
-      "url": "https://stocks.exchange/trade/GDM/BTC"
+    "graviex.net": {
+      "logo": "images/graviex.png",
+      "url": "https://graviex.net/markets/gdmbtc"
     }
   },
   "administrator": {
