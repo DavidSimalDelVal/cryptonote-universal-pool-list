@@ -1,0 +1,6 @@
+{
+  "name": "superblockchain.con-ip.com",
+  "front": "http://superblockchain.con-ip.com/gdm/",
+  "back": "http://superblockchain.con-ip.com:8100",
+  "location": "ES"
+}
