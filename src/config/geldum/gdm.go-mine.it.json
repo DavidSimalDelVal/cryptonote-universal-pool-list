@@ -2,6 +2,6 @@
   "name": "gdm.go-mine.it",
   "front": "https://gdm.go-mine.it",
   "back": "https://gdm.go-mine.it/api",
-  "location": "DEU",
+  "location": "DE",
   "impl": "nodejs-pool"
 }
