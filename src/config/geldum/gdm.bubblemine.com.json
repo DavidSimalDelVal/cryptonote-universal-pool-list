@@ -1,6 +1,6 @@
 {
   "name": "gdm.bubblemine.com",
-  "front": "http://gdm.bubblemine.com/",
-  "back": "http://gdmminer.bubblemine.com:8118/",
+  "front": "http://gdm.bubblemine.com",
+  "back": "http://gdmminer.bubblemine.com:8118",
   "location": "UK"
 }
